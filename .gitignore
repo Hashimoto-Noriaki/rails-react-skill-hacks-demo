@@ -15,3 +15,6 @@
 !/backend/tmp/storage/
 !/backend/tmp/storage/.keep
 /backend/config/master.key
+
+# Ignore vendored gems installed at the repo root.
+/vendor/bundle
