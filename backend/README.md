@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Lint
+
+このプロジェクトではコードスタイルチェックに [RuboCop](https://github.com/rails/rubocop-rails-omakase) を使用しています。CIでも自動実行されます。
+
+```sh
+bin/rubocop      # オフェンスをチェック
+bin/rubocop -A   # オフェンスを自動修正
+```
