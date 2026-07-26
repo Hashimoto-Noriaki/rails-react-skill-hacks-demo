@@ -1,6 +1,6 @@
 class Api::V1::TasksController < ApplicationController
-  #1. 全てのタスクを取得する
-  #2. タスクをステータスごとに表示する
+  # 1. 全てのタスクを取得する
+  # 2. タスクをステータスごとに表示する
   ## GET /api/v1/tasks
   # タスクの一覧を、statusごとに分類したJSONで返す。
   def index
