@@ -31,3 +31,11 @@ Things you may want to cover:
 bin/rubocop      # オフェンスをチェック
 bin/rubocop -A   # オフェンスを自動修正
 ```
+
+## Test
+
+テストには [RSpec](https://github.com/rspec/rspec-rails) を使用しています。CIでも自動実行されます。
+
+```sh
+bundle exec rspec
+```
